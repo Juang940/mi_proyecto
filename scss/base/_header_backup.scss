@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+.cabecera {
+    width: 100vw;
+    position:sticky;
+    top: 0;
+    justify-content: center;
+    grid-area: header;
+    z-index: 999;
+  
+  }
+  
+  .subrayado {
+    text-decoration: underline;
+    color: #2a2a2a;
+  }
+  
+  .foto_tornillos {
+    width: 170px;
+    height: 50px;
+    margin-left: 45.5vw;
+  
+  }
+  
+  
+  .cabecera__lista {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+  margin: auto;
+  max-width: 1000px;
+    align-items:flex-start; 
+  }
+  
+  .cabecera__link {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+    padding: 1rem 2rem 1.15rem;
+  }
+  
+  .cabecera__link:hover {
+    background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #fc0000;
+  font-weight: bold;
+  }
+  
+  .cabecera__link:active {
+    transform: translateY(4px);
+  }
+  
+  .cabecera__link__item {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+     font-size:large;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+  
+  }
+  
+  .expansible{
+    z-index: 2;
+  
+  }
+  .nav-link-header {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-link-header:hover {
+    color: coral;
+  }
+  
+  /* ANIMACIONES */
+  @keyframes spring {
+    15% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.2, 1.1);
+    }
+    40% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(0.95, 0.95);
+    }
+    75% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1.05, 1);
+    }
+    100% {
+      -webkit-transform-origin: center center;
+      -webkit-transform: scale(1, 1);
+    }
+  }
+  
+  
+  /* Fin Header */
