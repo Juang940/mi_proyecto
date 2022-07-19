@@ -1,4 +1,4 @@
-h1 {
+.title-contacto {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;
@@ -6,12 +6,18 @@ h1 {
     text-align: center;
 }
 
-h4 {
+.title-contacto-2 {
     font-family: 'Roboto', sans-serif, 'arial';
     font-weight: 400;
     font-size: 20px;
     color: #9b9b9b;
     line-height: 1.5;
+}
+
+.contenedor-contacto {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 85px;
 }
 
 /* ///// inputs /////*/
@@ -81,9 +87,10 @@ textarea {
 }
 
 .input-container {
-    width: 650px;
+   width: 650px;
     max-width: 100%;
-    margin: 20px auto 25px auto;
+    margin: 20px auto 20px auto;
+    
 }
 
 .submit-btn {
