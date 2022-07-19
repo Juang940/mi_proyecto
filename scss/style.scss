@@ -6,11 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
-// @import "base/header";
-// @import "base/footer";
-// @import "components/slider-home";
-// @import "components/title-home";
-// @import "components/cards-home";
 @import "components/cards-home";
 @import "components/slider-home";
 @import "components/title-home";
@@ -22,6 +17,7 @@
 @import "components/_contacto";
 @import "components/_nosotros";
 @import "components/catalogo";
+@import "components/servicios";
 
 $main-green: #79dd09 !default;
 $main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
