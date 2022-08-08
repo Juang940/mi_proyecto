@@ -1,0 +1,93 @@
+#carouselExampleControls {
+    margin-top: 70px;
+}
+
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.title-catalogo {
+  padding-top: 70px;
+
+}
+.mb-50{
+
+    margin-bottom: 50px;
+}
+
+.card-second {
+    background-color: #18151f;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #2a2a2a;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+    margin: 10px;
+    border: 1px solid #2a2a2a ;
+}
+
+.card-img-actions {
+    position: relative;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+    background-color: coral;
+}
+
+.card-img{
+
+    width: 350px;
+    height: 350px;
+}
+
+.bg-cart {
+    background-color:orange;
+    color: #2a2a2a;
+}
+
+.bg-cart:hover {
+    
+    color: #2a2a2a;;
+}
+
+.bg-buy {
+    background-color:green;
+    color:#fff;
+    padding-right: 29px;
+}
+.bg-buy:hover {
+    
+    color:#fff;
+}
+
+a{
+
+    text-decoration: none !important;
+}
+
+.title-producto {
+    color: #fff;
+}
+
+
+.title-producto:hover {
+    color: coral;
+}
+
+.price-catalogo {
+    color: #fff;
+}

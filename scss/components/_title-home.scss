@@ -1,0 +1,72 @@
+
+/* Titulo */
+.titulo__section {
+    height: 75px;
+    width: auto;
+    /* background-color: coral; */
+    }
+    
+    .titulo-index {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      color: #2a2a2a;
+      font-size: 124px;
+      letter-spacing: 8px;
+      cursor: pointer;
+    }
+    
+    
+    .titulo-index::before {
+      content: "TRABAJOS";
+      position: absolute;
+      color: transparent;
+      background-image: repeating-linear-gradient(
+        45deg,
+        transparent 0,
+        transparent 2px,
+        white 2px,
+        white 4px
+      );
+      -webkit-background-clip: text;
+      top: 0px;
+      left: 0;
+      z-index: -1;
+      transition: 1s;
+    }
+    
+    .titulo-index::after {
+      content: "TRABAJOS";
+      position: absolute;
+      color: transparent;
+      background-image: repeating-linear-gradient(
+        135deg,
+        transparent 0,
+        transparent 2px,
+        white 2px,
+        white 4px
+      );
+      -webkit-background-clip: text;
+      top: 0px;
+      left: 0px;
+      transition: 1s;
+    }
+    
+    .titulo-index:hover::before {
+      top: 10px;
+      left: 10px;
+    }
+    
+    .titulo-index:hover::after {
+      top: -10px;
+      left: -10px;
+    } 
+
+    .nosotros__margin {
+      margin-top: 100px;
+    }
+    
+    
+    /* Fin titulo */

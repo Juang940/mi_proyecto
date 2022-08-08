@@ -1,0 +1,28 @@
+/* Video Informativo */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+.video__div {
+    margin-bottom: 200px;
+    margin-top: 70px;
+  }
+  .video__section {
+    background-color: #18151f;
+  }
+  
+  .carousel-inner {
+    max-height: 39rem;
+    padding-top: 2rem;
+  }
+  .video__informativo__parrafo {
+    font-size: large;
+    font-weight: bold;
+    margin: auto;
+    padding: 2%;
+    margin-right: 5%;
+    color: white;
+  }
+
+  .video__informativo__parrafo {
+    font-family: 'Port Lligat Slab', serif;
+  }
+  /* Fin Video Informativo */
